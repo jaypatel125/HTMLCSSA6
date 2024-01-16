@@ -1,0 +1,31 @@
+/* common css for all html files
+Jay Patel, 000881881 */
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+h2{
+    background-color: rgb(250, 200, 0);
+    padding: 5px 0 5px 10px;}
+
+.main{text-align: center;}
+
+.mainh2{background-color: white;}
+
+nav ul li{list-style-type: none;
+    display: inline;
+    border-right:2px solid black;
+    padding: 0 8px 0 0px;
+    }
+
+nav a{text-decoration: underline;}
+
+nav .noborder{border-right: none;}
+
+table, th, td {border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;}
+
+thead {background-color: lightgray;}
+
+tfoot{background-color: lightgreen;}
+
+
